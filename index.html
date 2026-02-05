@@ -1,0 +1,305 @@
+<!-- index.html -->
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ЕвроСтиль | Мерч</title>
+  <meta name="description" content="ЕвроСтиль — производство вязаных изделий для компаний. Вязаный мерч, который приятно дарить." />
+  <meta name="theme-color" content="#0b0b0b" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="top" id="topbar">
+    <div class="wrap top__row">
+      <a class="brand" href="#top" aria-label="ЕвроСтиль — на главную">
+        <span class="brand__mark">ES</span>
+        <span class="brand__text">
+          <span class="brand__name">ЕвроСтиль</span>
+          <span class="brand__sub">Мерч</span>
+        </span>
+      </a>
+
+      <nav class="nav" aria-label="Навигация">
+        <a class="nav__link" href="#why">Под какие задачи</a>
+        <a class="nav__link" href="#products">Изделия</a>
+        <a class="nav__link" href="#trust">Почему мы</a>
+        <a class="nav__link" href="#process">Процесс работы</a>
+        <a class="nav__link nav__cta" href="#contact">Заявка</a>
+      </nav>
+
+      <button class="burger" id="burger" type="button" aria-label="Открыть меню">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <div class="mnav" id="mnav" aria-hidden="true">
+      <div class="wrap mnav__row">
+        <a class="mnav__link" href="#why">Под какие задачи</a>
+        <a class="mnav__link" href="#products">Изделия</a>
+        <a class="mnav__link" href="#trust">Почему мы</a>
+        <a class="mnav__link" href="#process">Процесс работы</a>
+        <a class="mnav__link mnav__cta" href="#contact">Заявка</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- HERO (hero.jpg = фон) -->
+    <section aria-label="ЕвроСтиль — вязаные изделия" class="hero">
+      <div class="hero__bg" role="img" aria-label="Вязаные изделия"></div>
+
+      <div class="wrap hero__grid">
+        <div class="hero__left">
+          <h1 class="h1">Вязаный мерч, который приятно дарить</h1>
+          <p class="lead">
+            ЕвроСтиль — производство вязаных изделий для компаний.<br/>
+            Мы специализируемся только на вязаном трикотаже и создаём мерч,<br/>
+            который выглядит уместно, служит долго и поддерживает репутацию бренда.
+          </p>
+
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#contact">Оставить заявку →</a>
+            <a class="btn btn--ghost" href="#products">Смотреть изделия</a>
+          </div>
+
+          <div class="hero__meta">
+            <div class="panel">
+              <div class="panel__k">Примеры форматов</div>
+              <div class="chips">
+                <span class="chip">Аксессуары</span>
+                <span class="chip">Пледы</span>
+                <span class="chip">Свитеры</span>
+                <span class="chip">Шапки</span>
+                <span class="chip">Шарфы</span>
+                <span class="chip">Варежки</span>
+              </div>
+            </div>
+            <p class="hero__note">Отвечаем быстро и сразу говорим, сможем ли уложиться в сроки.</p>
+          </div>
+        </div>
+
+        <div class="hero__stats">
+          <div class="stat">
+            <div class="stat__k">Специализация</div>
+            <div class="stat__v">Только вязаный трикотаж</div>
+          </div>
+          <div class="stat">
+            <div class="stat__k">Задачи</div>
+            <div class="stat__v">Корпоративный мерч и подарки</div>
+          </div>
+          <div class="stat">
+            <div class="stat__k">Подход</div>
+            <div class="stat__v">Производственное решение под дедлайн</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="why">
+      <div class="wrap">
+        <h2 class="h2">Когда вязаный мерч — хорошее решение</h2>
+        <p class="p">Вязаные изделия подходят для задач, где важны тактильность, внимание к деталям и длительный контакт с брендом.</p>
+
+        <div class="cards">
+          <article class="card"><div class="card__t">Подарки партнёрам и клиентам</div></article>
+          <article class="card"><div class="card__t">Мероприятия и офлайн-активации</div></article>
+          <article class="card"><div class="card__t">Изделия для офисов и общественных пространств</div></article>
+          <article class="card"><div class="card__t">Подарки сотрудникам</div></article>
+        </div>
+
+        <p class="p" style="margin-top:14px">Мы помогаем выбрать формат и изделие под вашу задачу с учётом бюджета, тиража и сроков.</p>
+      </div>
+    </section>
+
+    <section class="section" id="specialization">
+      <div class="wrap">
+        <h2 class="h2">Работаем только с вязаным трикотажем</h2>
+        <p class="p">Наша специализация — вязаные изделия.</p>
+        <p class="p" style="margin-top:10px">25 лет работы с трикотажем научили нас:</p>
+
+        <div class="facts">
+          <div class="fact"><span>01</span>как материал ведёт себя в носке</div>
+          <div class="fact"><span>02</span>какую технологию выбрать, чтобы изделие держало форму и выглядело аккуратно</div>
+          <div class="fact"><span>03</span>где проходит граница между выразительным дизайном и избыточными решениями</div>
+        </div>
+
+        <p class="p" style="margin-top:14px">Узкая специализация обеспечивает стабильный и предсказуемый результат.</p>
+      </div>
+    </section>
+
+    <section class="section" id="products">
+      <div class="wrap">
+        <div class="split">
+          <div>
+            <h2 class="h2">Форматы и возможности</h2>
+            <p class="p">Мы — производственная команда, которая работает с вязаным трикотажем под задачу бизнеса.</p>
+
+            <div class="facts">
+              <div class="fact"><span>01</span>аксессуары для офиса и корпоративных подарков</div>
+              <div class="fact"><span>02</span>пледы</div>
+              <div class="fact"><span>03</span>свитеры</div>
+              <div class="fact"><span>04</span>шапки</div>
+              <div class="fact"><span>05</span>шарфы</div>
+              <div class="fact"><span>06</span>варежки</div>
+            </div>
+
+            <p class="p" style="margin-top:14px">
+              Если у вас есть идея, референс или просто задача — этого достаточно. Мы поможем превратить её в изделие:
+              подберём пряжу, переплетение, конструкцию и способ брендинга.
+            </p>
+          </div>
+
+          <div class="gallery" id="gallery" aria-label="Примеры работ">
+            <button class="shot" type="button" data-gallery="works" data-src="image/product-hockey-set.jpg" data-alt="">
+              <img src="image/product-hockey-set.jpg" alt="" loading="lazy" />
+            </button>
+            <button class="shot" type="button" data-gallery="works" data-src="image/product-thermos-cover.jpg" data-alt="">
+              <img src="image/product-thermos-cover.jpg" alt="" loading="lazy" />
+            </button>
+            <button class="shot" type="button" data-gallery="works" data-src="image/product-knit-pattern.jpg" data-alt="">
+              <img src="image/product-knit-pattern.jpg" alt="" loading="lazy" />
+            </button>
+            <button class="shot" type="button" data-gallery="works" data-src="image/product-knit-folded-dark.jpg" data-alt="">
+              <img src="image/product-knit-folded-dark.jpg" alt="" loading="lazy" />
+            </button>
+            <button class="shot" type="button" data-gallery="works" data-src="image/product-blanket-blue.jpg" data-alt="">
+              <img src="image/product-blanket-blue.jpg" alt="" loading="lazy" />
+            </button>
+            <button class="shot" type="button" data-gallery="works" data-src="image/product-hero-office.jpg" data-alt="">
+              <img src="image/product-hero-office.jpg" alt="" loading="lazy" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="trust">
+      <div class="wrap">
+        <h2 class="h2">Почему с нами спокойно работать</h2>
+        <p class="p">Мы понимаем, что корпоративные заказы почти всегда привязаны к датам: мероприятиям, запускам, дедлайнам.</p>
+
+        <div class="cards">
+          <article class="card"><div class="card__t">заранее оцениваем реальные сроки производства</div></article>
+          <article class="card"><div class="card__t">фиксируем дату готовности до запуска заказа</div></article>
+          <article class="card"><div class="card__t">контролируем производство и качество на каждом этапе</div></article>
+          <article class="card"><div class="card__t">держим связь и предупреждаем о рисках заранее</div></article>
+        </div>
+
+        <p class="p" style="margin-top:14px">В результате вы получаете предсказуемый результат и соблюдение согласованных сроков.</p>
+      </div>
+    </section>
+
+    <section class="section" id="brands">
+      <div class="wrap">
+        <h2 class="h2">Нам доверяют бренды</h2>
+        <p class="p">
+          Мы работаем с брендами одежды и корпоративными заказчиками. Опыт работы с fashion-брендами научил нас работать с формой,
+          деталями и требованиями к качеству — эти принципы мы применяем и в корпоративном мерче.
+        </p>
+
+        <div class="chips">
+          <span class="chip">МИР</span>
+          <span class="chip">Яндекс</span>
+          <span class="chip">МТС</span>
+          <span class="chip">Try on Dress</span>
+          <span class="chip">Tres</span>
+          <span class="chip">Mere</span>
+          <span class="chip">All We Need</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--dark" id="process">
+      <div class="wrap">
+        <h2 class="h2 h2--light">Как строится работа</h2>
+
+        <ul class="steps">
+          <li class="step"><div class="step__k">01</div><div class="step__t">Вы оставляете запрос</div></li>
+          <li class="step"><div class="step__k">02</div><div class="step__t">Мы анализируем задачу, контекст и масштаб проекта</div></li>
+          <li class="step"><div class="step__k">03</div><div class="step__t">Вы получаете производственное решение с понятными сроками и условиями</div></li>
+          <li class="step"><div class="step__k">04</div><div class="step__t">Фиксируем договорённости и разрабатываем образец</div></li>
+          <li class="step"><div class="step__k">05</div><div class="step__t">Вы получаете готовую партию в согласованные сроки</div></li>
+        </ul>
+
+        <p class="p" style="margin-top:12px">Работа выстроена без избыточных этапов и затянутых согласований.</p>
+      </div>
+    </section>
+
+    <!-- CONTACT (возвращаем формат с заявкой + JS из старого сайта) -->
+    <section class="section" id="contact">
+      <div class="wrap">
+        <div class="contact">
+          <div class="contact__left">
+            <h2 class="h2">Обсудим ваш проект</h2>
+            <p class="p">
+              Напишите ваш запрос — мы ответим в течение 3 часов,
+              поможем определиться с форматом и аккуратно оформим заказ.
+            </p>
+
+            <div class="hint">
+              <div class="hint__t">Чтобы мы быстрее сориентировались, укажите:</div>
+              <ul class="list">
+                <li>какое изделие или набор</li>
+                <li>примерный тираж</li>
+                <li>к какой дате нужен заказ</li>
+                <li>референс (если есть)</li>
+              </ul>
+            </div>
+          </div>
+
+          <form class="form" id="leadForm" novalidate>
+            <label class="field">
+              <span>Имя</span>
+              <input id="nameInput" name="name" type="text" autocomplete="name" placeholder="Имя" required />
+            </label>
+
+            <label class="field">
+              <span>Контакт</span>
+              <input id="contactInput" name="contact" type="text" autocomplete="email" placeholder="Телефон или электронная почта" required />
+              <div class="field__hint" id="contactHint"></div>
+            </label>
+
+            <label class="field">
+              <span>Запрос</span>
+              <textarea name="message" placeholder="Опишите задачу: что нужно, тираж, к какой дате" required></textarea>
+            </label>
+
+            <button class="btn btn--primary btn--full" type="submit">Отправить</button>
+
+            <div class="toast" id="toast" role="status" aria-live="polite"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__row">
+      <div class="footer__a">ЕвроСтиль — производство вязаного мерча</div>
+      <div class="footer__b">Узкая специализация · Полный цикл · Москва</div>
+    </div>
+  </footer>
+
+  <!-- Lightbox -->
+  <div class="lb" id="lightbox" aria-hidden="true">
+    <div class="lb__backdrop" data-lb-close></div>
+    <div class="lb__panel" role="dialog" aria-label="Просмотр изображения">
+      <div class="lb__top">
+        <div class="lb__count" id="lbCount">1 / 1</div>
+        <button class="lb__close" type="button" aria-label="Закрыть" data-lb-close>×</button>
+      </div>
+
+      <div class="lb__body">
+        <button class="lb__nav lb__nav--prev" type="button" aria-label="Предыдущее" data-lb-prev>‹</button>
+        <img class="lb__img" id="lbImg" src="" alt="" />
+        <button class="lb__nav lb__nav--next" type="button" aria-label="Следующее" data-lb-next>›</button>
+      </div>
+
+      <div class="lb__thumbs" id="lbThumbs" aria-label="Миниатюры"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
